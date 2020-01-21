@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/ac_menu_home_id"
+        android:title="home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/ac_menu_receipt_id"
+        android:title="receipt"
+        android:icon="@drawable/ic_receipt"
+        app:showAsAction="always"
+
+        ></item>
+
+    <item
+        android:id="@+id/ac_menu_people_id"
+        android:icon="@drawable/ic_person"
+        android:title="people"
+        app:showAsAction="always"
+        >
+
+
+    </item>
+
+    <item
+        android:id="@+id/ac_menu_search_id"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="search"
+        ></item>
+
+
+
+    <item
+        android:id="@+id/ac_menu_settings_id"
+        android:icon="@drawable/ic_settings"
+        android:title="settings"
+        app:showAsAction="always"
+        ></item>
+
+
+
+</menu>
